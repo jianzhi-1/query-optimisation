@@ -1,4 +1,4 @@
--- createuser username || createuser -P username
+-- createuser <username> || createuser -P <username>
 -- createdb <db_name>
 -- psql
 CREATE TABLE roster(id int PRIMARY KEY, firstname VARCHAR(40), lastname VARCHAR(40));
